@@ -19,9 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{50E0F567-0647-4A8B-99E7-AFB25B3DEE10}</ProjectGuid>
-    <RootNamespace>Project4</RootNamespace>
+    <ProjectGuid>{882C5139-12CF-45F0-AC5D-C56CDC3C51E1}</ProjectGuid>
+    <RootNamespace>Project3</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Project 1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -110,17 +111,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Customer.h" />
-    <ClInclude Include="CustomerList.h" />
-    <ClInclude Include="Garage.h" />
-    <ClInclude Include="Invoice.h" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Garage.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Customer.cpp" />
-    <ClCompile Include="CustomerList.cpp" />
-    <ClCompile Include="Garage.cpp" />
-    <ClCompile Include="Invoice.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Garage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

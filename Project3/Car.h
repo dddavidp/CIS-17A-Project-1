@@ -3,17 +3,18 @@
 
 using namespace std;
 
-class Customer
+class Car
 {
 private:
 	string _ownerName;
-	string _vehicleSpecs;
+	string _specs;
 	string _problems;
 public:
 	string ownerName;
-	string vehicleSpecs;
+	string specs;
 	string problems;
 
-	Customer();
-	~Customer();
+	//getOwnerName();
+	//getSpecs();
+	//getProblems();
 };

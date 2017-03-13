@@ -12,9 +12,6 @@ private:
 public:
 	Car();
 	~Car();
-	string ownerName;
-	string specs;
-	string problems;
 
 	void getOwnerName();
 	void getSpecs();

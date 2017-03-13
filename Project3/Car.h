@@ -10,6 +10,8 @@ private:
 	string _specs;
 	string _problems;
 public:
+	Car();
+	~Car();
 	string ownerName;
 	string specs;
 	string problems;

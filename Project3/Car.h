@@ -16,7 +16,7 @@ public:
 	string specs;
 	string problems;
 
-	//getOwnerName();
-	//getSpecs();
-	//getProblems();
+	void getOwnerName();
+	void getSpecs();
+	void getProblems();
 };

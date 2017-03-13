@@ -5,21 +5,21 @@
 
 using namespace std;
 
-int getOwnerName()
+void Car::getOwnerName()
 {
 	cout << "Please enter the name of the owner: ";
 	cin >> ownerName;		//why isnt this line working
 	cout << endl;
 }
 
-int getSpecs()
+void Car::getSpecs()
 {
 	cout << "Please enter the make, model, year, and color of the vehicle: ";
 	cin >> specs;			//and this line
 	cout << endl;
 }
 
-int getProblems()
+void Car::getProblems()
 {
 	cout << "Please enter any problems (e.g. \"the brakes are making a noise\") provided by the customer: ";
 	cin >> problems;		//and this line
@@ -29,9 +29,6 @@ int getProblems()
 Car::Car()
 {
 	getOwnerName();
-
-
-
 	getSpecs();
 	getProblems();
 }

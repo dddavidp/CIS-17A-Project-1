@@ -10,11 +10,10 @@ private:
 	string _specs;
 	string _problems;
 public:
-	string ownerName;
-	string specs;
-	string problems;
+	Car();
+	~Car();
 
-	//getOwnerName();
-	//getSpecs();
-	//getProblems();
+	void getOwnerName();
+	void getSpecs();
+	void getProblems();
 };
